@@ -1,3 +1,8 @@
 [gd_scene format=3 uid="uid://dv1iw4leot7dp"]
 
-[node name="IngredientSlot" type="Node2D"]
+[node name="IngredientSlot" type="TextureButton"]
+
+[node name="SelectionArrow" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0

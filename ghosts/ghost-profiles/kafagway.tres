@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="GhostProfile" load_steps=2 format=3 uid="uid://dn2koponrgbya"]
+
+[ext_resource type="Script" uid="uid://dn8ev3dlv4onk" path="res://ghosts/ghost-profile.gd" id="1_5jqpr"]
+
+[resource]
+script = ExtResource("1_5jqpr")
+favorite_base = "Tapuy"
+favorite_addon = "Ginger"
+favorite_topping = "Pine Needle Dust"
+metadata/_custom_type_script = "uid://dn8ev3dlv4onk"

@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="GhostDialogue" load_steps=2 format=3 uid="uid://cpletd1vswtnn"]
+
+[ext_resource type="Script" uid="uid://radd2lrhwukp" path="res://ghosts/ghost-dialogues/logic/ghost-dialogue.gd" id="1_boxej"]
+
+[resource]
+script = ExtResource("1_boxej")
+metadata/_custom_type_script = "uid://radd2lrhwukp"

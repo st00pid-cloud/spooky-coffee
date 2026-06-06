@@ -4,4 +4,11 @@
 
 [resource]
 script = ExtResource("1_vr38v")
+story_beats = {
+1: ["I'm late, I'm late! ", "The meeting at Loakan was supposed to start ten minutes ago!", "My watch is stuck at 4:26 PM. Give me a coffee, heavy on the caffeine.", "I need to snap out of this fog."],
+2: ["Did you feel that? The floor just vibrated. ", "No? No, it's fine. Just my nerves.", "The 90s are a golden age for Baguio, you know? ", "Hyatt is booming, commerce is up.", "We're building the future... so why can I hear glass shattering in my ears?"],
+3: ["This taste... condensed milk. ", "My mother used to pour this over shaved ice when it got hot.", "It slows my heart down. The corporate ladder doesn't matter if you can't breathe, right?", "Why can't I remember leaving the office today?"],
+4: ["The sky turned grey.", "It wasn't fog; it was concrete dust. ", "The hotel... the roads... they just folded like paper.", "I was on the phone, talking about profit margins, and then the ceiling came down.", "I'm not late for a meeting, am I? I'm just... gone."],
+5: ["Ube and Arabica. The taste of home. ", "The city didn't die with me, did it? I can see it through your windows.", "It’s different, rebuilt, stubborn.", "I don't have to run anymore. The deadline doesn't matter."]
+}
 metadata/_custom_type_script = "uid://radd2lrhwukp"

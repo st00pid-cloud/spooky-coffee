@@ -4,4 +4,11 @@
 
 [resource]
 script = ExtResource("1_r0q84")
+story_beats = {
+1: ["The fog is thick tonight, ", "yet it cannot hide the stains on the floor. ", "Pray, give me something that matches the quiet of the pines.", "A drink with no loud laughter in it.", "Bitter, like memory. Soft, like a shroud."],
+2: ["People stop outside my gates to take photographs.", "They admire the beautiful white wood, the grand windows.", "They do not hear the boots on the stairs. ", "They do not hear the Kempeitai crying out in the dark.", "Splendor is an excellent mask for blood."],
+3: ["The sea salt cream in this cup... it tastes like the tears of a city burning.", "In forty-five, the sky rained iron.", "The beautiful hill station became a valley of ash.", "We survived the garrison only to be buried by the liberation.", "History has such heavy heels."],
+4: ["They asked so many questions.", "The walls were so thick, no one could hear us scream.", "I pleaded with the shadows, but the shadows belonged to them.", "Why must the living walk through my home and call it a game?", "My agony is not a tourist attraction!"],
+5: ["A solemn roast, salted tears, and white petals for the dead.", "You do not gawk at my scars, little barista; you mourn them with me.", "The Laperal house will always hold its shadows, but tonight, the cold has left my bones. ", "May your hearth remain safe from the wars of men."]
+}
 metadata/_custom_type_script = "uid://radd2lrhwukp"

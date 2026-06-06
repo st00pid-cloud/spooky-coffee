@@ -1,14 +1,14 @@
-[gd_resource type="Resource" script_class="GhostDialogue" load_steps=2 format=3 uid="uid://bjo1nq1you4iw"]
+[gd_resource type="Resource" script_class="GhostDialogue" load_steps=2 format=3 uid="uid://cb4gd5sqqs5bx"]
 
-[ext_resource type="Script" uid="uid://radd2lrhwukp" path="res://ghosts/ghost-dialogues/logic/ghost-dialogue.gd" id="1_pccjg"]
+[ext_resource type="Script" uid="uid://radd2lrhwukp" path="res://ghosts/ghost-dialogues/logic/ghost-dialogue.gd" id="1_dqhc6"]
 
 [resource]
-script = ExtResource("1_pccjg")
+script = ExtResource("1_dqhc6")
 story_beats = {
-1: ["What is this place? Too bright. Too soft. ", "Give me something that burns the throat, barkeep. Just black coffee. Remind me I’m still breathing under all this rock. "],
-2: [null, null, null],
-3: [],
-4: [],
-5: []
+1: ["Bro, you have no idea. Midterms week is literally killing me.", "I’ve been up since Tuesday coding this agentic logic system.", "Give me the sweetest, most caffeinated thing you have.", "If my heart stops, make sure my GitHub repo pushes first."],
+2: ["Session Road is packed, the jeeps are full, and my brain is completely fried.", "Everyone back home thinks because you're an IT student in Baguio,", "you're gonna be the next tech billionaire.", "I’m just trying to debug this script before the 11:59 PM deadline.", "More sugar, please!"],
+3: ["Hey, is the Wi-Fi weird in here? ", "My code won't compile, and honestly... I can’t remember the last time I actually ate a real meal. ", "It’s always just instant noodles and energy drinks.", "I fell asleep at my desk at the dorms, and when I woke up, I was here. ", "I’m just so tired, man."],
+4: ["I didn't wake up, did I? Tangina, I didn't pass the project.", "I worked so hard... I didn't sleep for four days because I wanted that perfect grade.", "I treated my life like a finals week sprint, and my system crashed. ", "What was it all for if I’m just stuck here?"],
+5: ["Wow. Strawberry and Matcha... this tastes exactly like the treats we'd reward ourselves with after a brutal exam at the night market. ", "It’s okay, right? ", "The code doesn't have to run anymore. ", " I can finally... just log off.", "Thanks for the sweet brew, boss. ", "I’m gonna go get some actual sleep now."]
 }
 metadata/_custom_type_script = "uid://radd2lrhwukp"

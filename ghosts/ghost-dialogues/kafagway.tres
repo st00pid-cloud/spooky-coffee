@@ -4,4 +4,11 @@
 
 [resource]
 script = ExtResource("1_boxej")
+story_beats = {
+1: ["The stone houses stand where the cattle once grazed. ", "You trap the fire in glass bulbs, but the fog still owns the night.", "Bring no white powders or boiled syrups to me."],
+2: ["Before the concrete ribbons were cut into the mountainside,", "this was a place of moss and cool grass. ", "The whispers of the pine trees…", "The roots... the roots remember."],
+3: ["You have caught the breath of the forest in this cup.", "The smoke reminds me of the hearth fires of my people.", "You have polite hands, little brewer. You listen to the soil."],
+4: ["They walk through our burial hills with cameras and laughter. ", "They call our ancestors 'ghosts' and fear the dark. ", "The land is simply grieving.", "They took the valley, but they could never conquer the mist."],
+5: ["This is the un-colonized wild. ", "Rice wine from the harvest, ginger from the earth, pine from the sky.", "You have carved a small sanctuary in the middle of their concrete.", "Sleep well, little brewer. The ancestors know your name now. ", "The mountain will protect this house. "]
+}
 metadata/_custom_type_script = "uid://radd2lrhwukp"

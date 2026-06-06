@@ -4,4 +4,11 @@
 
 [resource]
 script = ExtResource("1_vypfn")
+story_beats = {
+1: ["Step right up, pal! You are looking at the future of the Orient! ", "A manufactured paradise in the clouds!", "Cool pine air to cure your ailments! Give me a drink with flair, kid! ", "Make it bright, make it pop!"],
+2: ["We laid it out perfectly. Rowboats on the lake, roller skates on the asphalt! ", "A sanitarium for the tired soldier! It’s clean, it’s orderly. ", "So... why does it feel like the trees are staring back at me? ", "Put more sweetness in that cup, will ya? The air is getting heavy."],
+3: ["Do you smell that? The pine. It’s not... it’s not a perfume.", "When we rolled the bulldozers in, the locals looked at us. ", "They didn't fight. They just watched. ", "Like they knew the mountain would outlive my contracts. I don't feel so good, pal."],
+4: ["Give me the strawberries! Give me the spectacle!", "If it’s not loud, it’s quiet, and if it’s quiet, I can hear the dirt shifting!", "We took their pasturelands, kid. We drew lines on their sacred hills and called it a 'Hill Station.' ", "I just wanted to build something beautiful. Why is it so cold?"],
+5: ["The local brew... mixed with our sweet, manufactured red. It’s dazzling, isn't it? ", "A carnival in a glass. The show has to end sometime, pal.", "The lights are dimming at the park, and the rowboats are tied up.", "It’s time for this old showman to give up the stage. Keep the city beautiful, kid."]
+}
 metadata/_custom_type_script = "uid://radd2lrhwukp"

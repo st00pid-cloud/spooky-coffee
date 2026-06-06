@@ -1,7 +1,14 @@
-[gd_resource type="Resource" script_class="GhostDialogue" load_steps=2 format=3 uid="uid://cb4gd5sqqs5bx"]
+[gd_resource type="Resource" script_class="GhostDialogue" load_steps=2 format=3 uid="uid://bjo1nq1you4iw"]
 
-[ext_resource type="Script" uid="uid://radd2lrhwukp" path="res://ghosts/ghost-dialogues/logic/ghost-dialogue.gd" id="1_dqhc6"]
+[ext_resource type="Script" uid="uid://radd2lrhwukp" path="res://ghosts/ghost-dialogues/logic/ghost-dialogue.gd" id="1_pccjg"]
 
 [resource]
-script = ExtResource("1_dqhc6")
+script = ExtResource("1_pccjg")
+story_beats = {
+1: ["What is this place? Too bright. Too soft.", "Give me something that burns the throat. No sugar at all. ", "Just black coffee. Remind me I’m still breathing under all this rock. "],
+2: ["You hear that out there? ", "Not the cars. The cracking of granite. ", "We carved that road out with our bare hands, bleeding into the dirt."],
+3: ["The ginger... it warms the chest. Good. ", "The tunnels are always freezing right before the dynamite goes off.", "You hold your breath, pray the timber holds, and wait for the mountain to swallow you whole.", "A lot of good boys stayed down there.\""],
+4: ["Gold. We tore the mountains apart for it.", "The prospectors wore it on their fingers while we wore it in our lungs. ", "I left a wife and a son down in the lowlands, promising I'd come back rich.", "I only came back in a pine box.\""],
+5: ["This is it. The bitter earth, the heat of the strike, and the gold that killed me.", "It’s strange... for ninety years, my hands wouldn't stop shaking. ", "But this cup? It’s warm. The shift is finally over. Thank you, kid."]
+}
 metadata/_custom_type_script = "uid://radd2lrhwukp"

@@ -1,5 +1,6 @@
-[gd_resource type="Resource" script_class="GhostProfile" load_steps=2 format=3 uid="uid://c4odlvsvbnfqj"]
+[gd_resource type="Resource" script_class="GhostProfile" load_steps=3 format=3 uid="uid://c4odlvsvbnfqj"]
 
+[ext_resource type="Resource" uid="uid://bjo1nq1you4iw" path="res://ghosts/ghost-dialogues/kennon.tres" id="1_d7nok"]
 [ext_resource type="Script" uid="uid://dn8ev3dlv4onk" path="res://ghosts/ghost-profile.gd" id="1_vyl10"]
 
 [resource]
@@ -16,4 +17,5 @@ Dialogue Constraint: Max 2 sentences. Speak cryptically about your trauma or the
 favorite_base = "Benguet Arabica"
 favorite_addon = "Ginger"
 favorite_topping = "Gold Leaf"
+dialogue_data = ExtResource("1_d7nok")
 metadata/_custom_type_script = "uid://dn8ev3dlv4onk"

@@ -1,6 +1,7 @@
-[gd_resource type="Resource" script_class="GhostProfile" load_steps=2 format=3 uid="uid://b03v5bp8jfrve"]
+[gd_resource type="Resource" script_class="GhostProfile" load_steps=3 format=3 uid="uid://b03v5bp8jfrve"]
 
 [ext_resource type="Script" uid="uid://dn8ev3dlv4onk" path="res://ghosts/ghost-profile.gd" id="1_ii110"]
+[ext_resource type="Resource" uid="uid://cb4gd5sqqs5bx" path="res://ghosts/ghost-dialogues/baguio-colleges.tres" id="1_v4st6"]
 
 [resource]
 script = ExtResource("1_ii110")
@@ -16,4 +17,5 @@ Dialogue Constraint: Max 2 sentences. Express your perpetual academic panic or h
 favorite_base = "Matcha Green Tea"
 favorite_addon = "Strawberry Syrup"
 favorite_topping = "Crushed Ube Halaya"
+dialogue_data = ExtResource("1_v4st6")
 metadata/_custom_type_script = "uid://dn8ev3dlv4onk"

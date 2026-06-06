@@ -1,5 +1,6 @@
-[gd_resource type="Resource" script_class="GhostProfile" load_steps=2 format=3 uid="uid://dsiw1r3sqtog4"]
+[gd_resource type="Resource" script_class="GhostProfile" load_steps=3 format=3 uid="uid://dsiw1r3sqtog4"]
 
+[ext_resource type="Resource" uid="uid://p2s7mlmyokcx" path="res://ghosts/ghost-dialogues/hyatt.tres" id="1_dt20p"]
 [ext_resource type="Script" uid="uid://dn8ev3dlv4onk" path="res://ghosts/ghost-profile.gd" id="1_f675t"]
 
 [resource]
@@ -7,4 +8,5 @@ script = ExtResource("1_f675t")
 favorite_base = "Benguet Arabica"
 favorite_addon = "Condensed Milk"
 favorite_topping = "Crushed Ube Halaya"
+dialogue_data = ExtResource("1_dt20p")
 metadata/_custom_type_script = "uid://dn8ev3dlv4onk"

@@ -1,3 +1,28 @@
 [gd_scene format=3 uid="uid://bu3jtbge1bqnn"]
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D" type="CanvasLayer"]
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+offset_right = 1154.0
+offset_bottom = 647.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="NinePatchRect"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -261.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "TEXT SAMPLE"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="NinePatchRect"]
+layout_mode = 0
+offset_left = 1033.0
+offset_top = 571.0
+offset_right = 1125.0
+offset_bottom = 623.0
+text = "NEXT"

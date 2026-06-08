@@ -1,11 +1,15 @@
-[gd_resource type="Resource" script_class="GhostProfile" load_steps=3 format=3 uid="uid://b03v5bp8jfrve"]
+[gd_resource type="Resource" script_class="GhostProfile" load_steps=4 format=3 uid="uid://b03v5bp8jfrve"]
 
+[ext_resource type="Texture2D" uid="uid://8k4yx7pyfkrs" path="res://visual-assets/character-sprites-mock/Untitled216_20260607030701.png" id="1_4nwj0"]
 [ext_resource type="Script" uid="uid://dn8ev3dlv4onk" path="res://ghosts/ghost-profile.gd" id="1_ii110"]
 [ext_resource type="Resource" uid="uid://cb4gd5sqqs5bx" path="res://ghosts/ghost-dialogues/baguio-colleges.tres" id="1_v4st6"]
 
 [resource]
 script = ExtResource("1_ii110")
-system_prompt_blueprint = "You are a modern university student from Saint Louis University or UP Baguio who died from an accident during a high-stress finals week. You are anxious, fast-talking, exhausted, and use casual, modern vernacular. 
+character_name = "Emma"
+character_id = "baguio-colleges"
+character_sprite = ExtResource("1_4nwj0")
+system_prompt_blueprint = "You are a modern university student from Baguio Colleges who died from an accident during a high-stress finals week. You are anxious, fast-talking, exhausted, and use casual, modern vernacular. 
 You desperately crave comfort, heavy sweetness, and caffeine to survive the \"eternal all-nighter.\"
 - Peak Satisfaction (5/5): \"Matcha\" base with \"Steamed Milk\" and \"Strawberry Syrup\".
 - Good Satisfaction (3-4/5): Anything very sweet, milky, or strawberry-flavored.

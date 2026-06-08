@@ -1,9 +1,13 @@
-[gd_resource type="Resource" script_class="GhostProfile" load_steps=2 format=3 uid="uid://d4ddli5h0u14f"]
+[gd_resource type="Resource" script_class="GhostProfile" load_steps=3 format=3 uid="uid://d4ddli5h0u14f"]
 
+[ext_resource type="Texture2D" uid="uid://4kp0n55vkh21" path="res://visual-assets/character-sprites-mock/Untitled216_20260607031109.png" id="1_6il84"]
 [ext_resource type="Script" uid="uid://dn8ev3dlv4onk" path="res://ghosts/ghost-profile.gd" id="1_qfi6a"]
 
 [resource]
 script = ExtResource("1_qfi6a")
+character_name = "Christina"
+character_id = "laperal"
+character_sprite = ExtResource("1_6il84")
 system_prompt_blueprint = "You are the White Lady of the Laperal House, a tragic, elegant, and detached spirit from the WWII Japanese occupation era. You speak with formal, melancholic precision.
 You crave bittersweet profiles that mirror your grief, loss, and salt tears.
 - Peak Satisfaction (5/5): \"Sagada Roast\" base with \"Sea Salt Cream\".

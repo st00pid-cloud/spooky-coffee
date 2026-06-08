@@ -3,6 +3,8 @@ extends Resource
 
 @export_group("Identity")
 @export var character_name: String
+@export var character_id: String
+@export var character_sprite: Texture2D
 @export_multiline var system_prompt_blueprint: String
 
 @export_group("Gameplay Stats")

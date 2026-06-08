@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://c0n6ult0bbvla"]
+
+[ext_resource type="Script" uid="uid://dro8c612eyy1u" path="res://managers/main-gameplay.gd" id="1_kamug"]
+[ext_resource type="Texture2D" uid="uid://42opwhddj2w6" path="res://visual-assets/mock-cafe-bg.jpg" id="1_kccov"]
+[ext_resource type="PackedScene" uid="uid://bu3jtbge1bqnn" path="res://gameItself/panel-scenes/dialogue-panel.tscn" id="2_kamug"]
+
+[node name="Maingameplay" type="Node2D"]
+script = ExtResource("1_kamug")
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(577, 322.99997)
+scale = Vector2(1.5597826, 1.1702898)
+texture = ExtResource("1_kccov")
+
+[node name="Ghost" type="AnimatedSprite2D" parent="."]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="GhostTalk" parent="." instance=ExtResource("2_kamug")]

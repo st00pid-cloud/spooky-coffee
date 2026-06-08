@@ -5,6 +5,8 @@
 
 [resource]
 script = ExtResource("1_m4oye")
+character_name = "Robert "
+character_id = "burnham"
 favorite_base = "Tapuy Essence"
 favorite_addon = "Strawberry Syrup"
 favorite_topping = "Gold Leaf Flakes"

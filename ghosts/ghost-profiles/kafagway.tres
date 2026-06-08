@@ -5,6 +5,8 @@
 
 [resource]
 script = ExtResource("1_5jqpr")
+character_name = "[REDACTED]"
+character_id = "kafagway"
 favorite_base = "Tapuy"
 favorite_addon = "Ginger"
 favorite_topping = "Pine Needle Dust"

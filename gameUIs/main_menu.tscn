@@ -1,8 +1,14 @@
-[gd_scene format=3 uid="uid://dsr58gjyiafh5"]
+[gd_scene load_steps=2 format=3 uid="uid://dsr58gjyiafh5"]
 
-[node name="Main Menu" type="Node2D"]
+[ext_resource type="Script" uid="uid://d25p5vsqvj3n2" path="res://gameUIs/mainmenu.gd" id="1_lv0we"]
+
+[node name="Main Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_lv0we")
 
 [node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
 offset_right = 1150.0
 offset_bottom = 650.0
 

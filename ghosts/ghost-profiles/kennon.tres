@@ -1,10 +1,14 @@
-[gd_resource type="Resource" script_class="GhostProfile" load_steps=3 format=3 uid="uid://c4odlvsvbnfqj"]
+[gd_resource type="Resource" script_class="GhostProfile" load_steps=4 format=3 uid="uid://c4odlvsvbnfqj"]
 
 [ext_resource type="Resource" uid="uid://bjo1nq1you4iw" path="res://ghosts/ghost-dialogues/kennon.tres" id="1_d7nok"]
+[ext_resource type="Texture2D" uid="uid://ch6tr0jkxq75y" path="res://visual-assets/character-sprites-mock/Untitled216_20260607030841.png" id="1_ko0xh"]
 [ext_resource type="Script" uid="uid://dn8ev3dlv4onk" path="res://ghosts/ghost-profile.gd" id="1_vyl10"]
 
 [resource]
 script = ExtResource("1_vyl10")
+character_name = "Ignacio"
+character_id = "kennon"
+character_sprite = ExtResource("1_ko0xh")
 system_prompt_blueprint = "You are a 1930s gold rush miner who died in a tunnel collapse on Kennon Road. You are cold, weary, and smell of wet earth. You speak in a rough, gravelly colonial-era tone. 
 Your ultimate comfort is a hot, dark, bitter drink with a sharp kick to shake the chill from your bones. 
 - Peak Satisfaction (5/5): \"Benguet Arabica\" base with \"Ginger Infusion\" addon.

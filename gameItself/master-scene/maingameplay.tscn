@@ -12,7 +12,7 @@ position = Vector2(577, 322.99997)
 scale = Vector2(1.5597826, 1.1702898)
 texture = ExtResource("1_kccov")
 
-[node name="Ghost" type="AnimatedSprite2D" parent="."]
+[node name="Ghost" type="Sprite2D" parent="."]
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
@@ -21,3 +21,8 @@ offset_right = 40.0
 offset_bottom = 40.0
 
 [node name="GhostTalk" parent="." instance=ExtResource("2_kamug")]
+
+[node name="GhostNameLabel" parent="GhostTalk/NinePatchRect/PanelContainer" index="2"]
+text = "TEST"
+
+[editable path="GhostTalk"]

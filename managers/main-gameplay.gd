@@ -1,27 +1,24 @@
+# maingameplay file.txt
 extends Node2D
 
-# References to your component nodes from earlier
-@onready var dialogue_box = $GhostTalk
-@onready var customer_sprite = $Ghost
+@onready var ghost_sprite: Sprite2D = $Ghost
+@onready var name_label: Label = $GhostTalk/NinePatchRect/PanelContainer/GhostNameLabel
 
-# The active character tracking
-var current_customer: GhostProfile
+func _ready() -> void:
+	# Test loading a specific ghost on startup
+	display_ghost("laperal")
 
-func start_customer_interaction(character_id: String) -> void:
-	# 1. Fetch the data container
-	current_customer = CharacterDatabase.get_profile(character_id)
-	if not current_customer:
-		return
-		
-	# 2. Update visual and narrative UI elements dynamically
-	customer_sprite.texture = load("res://visual-assets/character-sprites-mock/" + character_id + ".png")
+## Fetches data from the database and updates the scene elements
+func display_ghost(ghost_id: String) -> void:
+	# Retrieve the profile from the Autoload database
+	var profile: GhostProfile = CharacterDatabase.get_profile(ghost_id)
 	
-	# 3. Hand off the custom dialogue data to your dialogue component
-	dialogue_box.start_dialogue(current_customer.dialogue_data)
-
-func check_brewed_drink(base: String, addon: String, topping: String) -> void:
-	# Easy win-condition evaluation using the resource data!
-	if base == current_customer.favorite_base and addon == current_customer.favorite_addon:
-		dialogue_box.display_text("Wow! This is exactly what I wanted.")
+	if profile:
+		# Update UI and Visuals
+		name_label.text = profile.character_name
+		ghost_sprite.texture = profile.character_sprite
+		
+		print("Successfully summoned: ", profile.character_name)
+		print("Favorite topping: ", profile.favorite_topping)
 	else:
-		dialogue_box.display_text("Hmm... This doesn't taste quite right.")
+		push_error("Failed to display ghost with ID: " + ghost_id)

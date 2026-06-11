@@ -3,12 +3,12 @@ extends Node
 
 ## A dictionary to hold loaded profiles mapped by a clean ID string
 var profiles: Dictionary = {
-	"baguio-colleges" : 1,
-	"burnham" : 2,
-	"hyatt" : 3, 
-	"kafagway" : 4, 
-	"kennon" : 5, 
-	"laperal" : 6
+	"res://ghosts/ghost-profiles/baguio-colleges.tres" : "baguio-colleges",
+	"res://ghosts/ghost-profiles/burnham.tres" : "burnham",
+	"res://ghosts/ghost-profiles/hyatt.tres" : "hyatt", 
+	"res://ghosts/ghost-profiles/kafagway.tres" : "kafagway", 
+	"res://ghosts/ghost-profiles/kennon.tres" : "kennon", 
+	"res://ghosts/ghost-profiles/laperal.tres" : "laperal"
 }
 
 func _ready() -> void:

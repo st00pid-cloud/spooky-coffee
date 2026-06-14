@@ -17,3 +17,4 @@ config/features=PackedStringArray("4.5", "Forward Plus")
 
 IngredientManager="*res://ingredients/ingredient-manager.gd"
 CharacterDatabase="*res://managers/CharacterDatabase.gd"
+DialogueManager="*res://ghosts/ghost-dialogues/logic/dialogue-manager.gd"

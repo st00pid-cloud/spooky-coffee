@@ -4,8 +4,12 @@ extends Node2D
 @onready var ai_manager: HTTPRequest = $AIManager
 
 # Preload your custom resources here
-var miner_resource = preload("res://characters/miner.tres")
-var student_resource = preload("res://characters/student.tres")
+var baguio_colleges_resource = preload("res://ghosts/ghost-profiles/baguio-colleges.tres")
+var burnham_resource = preload("res://ghosts/ghost-profiles/burnham.tres")
+var hyatt_resource = preload("res://ghosts/ghost-profiles/hyatt.tres")
+var kafagway_resource = preload("res://ghosts/ghost-profiles/kafagway.tres")
+var kennon_resource = preload("res://ghosts/ghost-profiles/kennon.tres")
+var laperal_resource = preload("res://ghosts/ghost-profiles/laperal.tres")
 
 var current_ghost: GhostProfile
 
@@ -15,7 +19,7 @@ func _ready() -> void:
 	ai_manager.request_failed.connect(_on_ai_error)
 	
 	# Start the shift by bringing in a character
-	spawn_ghost(miner_resource)
+	spawn_ghost(baguio_colleges_resource)
 
 func spawn_ghost(ghost: GhostProfile) -> void:
 	current_ghost = ghost

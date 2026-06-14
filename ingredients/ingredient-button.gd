@@ -27,3 +27,7 @@ func _on_perfect_match(achievement_id: String, vfx_type: String) -> void:
 	print("LOCAL EFFECT: Play VFX -> ", vfx_type)
 	print("STEAM INTEGRATION: Unlock achievement -> ", achievement_id)
 	# Trigger your particle node or screen shake here!
+
+
+func _on_clearbutton_pressed() -> void:
+	pass # Replace with function body.

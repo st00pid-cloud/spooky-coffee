@@ -5,7 +5,6 @@ signal recipe_updated(current_recipe: Dictionary)
 signal perfect_match_triggered(achievement_id: String, vfx_type: String)
 
 # 1. The Flavor Matrix & Database
-# Updated database based on 1000031120.jpg and 1000031122.jpg
 const INGREDIENTS = {
 	"bases": {
 		"benguet_arabica": {
@@ -87,17 +86,41 @@ const INGREDIENTS = {
 	}
 }
 const PERFECT_MATCHES = {
-	"the_miner": {
-		"required_ingredient": "salabat",
+	"baguio-colleges": {
+		"required_ingredient": "matcha_green_tea",
 		"category": "addons",
-		"achievement": "WARMTH_IN_THE_MINES",
-		"vfx": "gold_sparks"
+		"achievement": "",
+		"vfx": ""
 	},
-	"the_weaver": {
+	"burnham": {
+		"required_ingredient": "tapuy_essence",
+		"category": "bases",
+		"achievement": "",
+		"vfx": ""
+	},
+		"hyatt": {
 		"required_ingredient": "benguet_arabica",
 		"category": "bases",
-		"achievement": "TRADITIONAL_THREADS",
-		"vfx": "weaving_smoke"
+		"achievement": "",
+		"vfx": ""
+	},
+		"kafagway": {
+		"required_ingredient": "benguet_arabica",
+		"category": "bases",
+		"achievement": "",
+		"vfx": ""
+	},
+		"kennon": {
+		"required_ingredient": "benguet_arabica",
+		"category": "bases",
+		"achievement": "",
+		"vfx": ""
+	},
+		"laperal": {
+		"required_ingredient": "benguet_arabica",
+		"category": "bases",
+		"achievement": "",
+		"vfx": ""
 	}
 }
 

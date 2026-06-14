@@ -6,7 +6,7 @@ extends Node2D
 
 func _ready() -> void:
 	# Test loading a specific ghost on startup
-	display_ghost("laperal")
+	display_ghost("baguio-colleges")
 
 ## Fetches data from the database and updates the scene elements
 func display_ghost(ghost_id: String) -> void:
